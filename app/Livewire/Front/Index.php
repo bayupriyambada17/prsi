@@ -2,12 +2,13 @@
 
 namespace App\Livewire\Front;
 
-use App\Http\Resources\Blog\BlogInfoResource;
 use App\Models\Blog;
 use App\Models\Sliders;
 use App\Models\Sponsor;
 use Livewire\Component;
 use App\Models\RegionalBranch;
+use App\Models\CalenderTimeline;
+use App\Http\Resources\Blog\BlogInfoResource;
 
 class Index extends Component
 {
@@ -23,12 +24,15 @@ class Index extends Component
             ->orderByDesc('created_at')->limit(6)->get();
         $blogsResource = BlogInfoResource::collection($blogs)->resolve();
 
+        $timelineCalenders = CalenderTimeline::limit(8)->orderBy('created_at', 'desc')->get();
+
         return view('livewire.front.index', [
             'sliders' => $sliders,
             'regionalBranches' => $regionalBranches,
             'sponsors' => $sponsors,
             'coSponsors' => $coSponsors,
-            'blogs' => $blogsResource
+            'blogs' => $blogsResource,
+            'calendars' => $timelineCalenders
         ]);
     }
 }

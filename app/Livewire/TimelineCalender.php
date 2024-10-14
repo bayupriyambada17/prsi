@@ -2,12 +2,21 @@
 
 namespace App\Livewire;
 
+use App\Models\CalenderTimeline;
+use Carbon\Carbon;
 use Livewire\Component;
 
 class TimelineCalender extends Component
 {
     public function render()
     {
-        return view('livewire.timeline-calender');
+        $timelineCalenders = CalenderTimeline::get();
+
+        $groupTimelineCalenders = $timelineCalenders->groupBy(function ($item) {
+            return Carbon::parse($item->date)->format('F Y');
+        });
+
+        // dd($groupTimelineCalenders);
+        return view('livewire.timeline-calender', compact('groupTimelineCalenders'));
     }
 }

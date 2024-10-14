@@ -15,48 +15,21 @@
 
             <div>
                 <h4 class="text-xs font-semibold text-gray-900 uppercase ">
-                    Product
+                    Produk PRSI
                 </h4>
 
                 <div class="mt-3 grid space-y-3 text-sm">
                     <p>
                         <a class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 focus:outline-none focus:text-gray-800 "
-                            href="#">Pricing</a>
+                            href="#">Kompetisi</a>
                     </p>
                     <p>
                         <a class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 focus:outline-none focus:text-gray-800 "
-                            href="#">Changelog</a>
+                            href="#">Edukasi</a>
                     </p>
                     <p>
                         <a class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 focus:outline-none focus:text-gray-800 "
-                            href="#">Docs</a>
-                    </p>
-                    <p>
-                        <a class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 focus:outline-none focus:text-gray-800 "
-                            href="#">Download</a>
-                    </p>
-                </div>
-            </div>
-            <!-- End Col -->
-
-            <div>
-                <h4 class="text-xs font-semibold text-gray-900 uppercase ">
-                    Company
-                </h4>
-
-                <div class="mt-3 grid space-y-3 text-sm">
-                    <p>
-                        <a class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 focus:outline-none focus:text-gray-800 "
-                            href="#">About us</a>
-                    </p>
-                    <p>
-                        <a class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 focus:outline-none focus:text-gray-800 "
-                            href="#">Blog</a>
-                    </p>
-                    <p>
-                        <a class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 focus:outline-none focus:text-gray-800 "
-                            href="#">Careers</a>
-                        <span class="inline text-blue-600 ">— We're hiring</span>
+                            href="#">Galeri</a>
                     </p>
 
                 </div>
@@ -65,30 +38,61 @@
 
             <div>
                 <h4 class="text-xs font-semibold text-gray-900 uppercase ">
-                    Resources
+                    Kompetisi
                 </h4>
 
                 <div class="mt-3 grid space-y-3 text-sm">
                     <p>
                         <a class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 focus:outline-none focus:text-gray-800 "
-                            href="#">Community</a>
+                            href="#">Tim Umum</a>
+                    </p>
+
+
+                </div>
+            </div>
+            <!-- End Col -->
+
+            <div>
+                <h4 class="text-xs font-semibold text-gray-900 uppercase ">
+                    Sejarah PRSI
+                </h4>
+
+                <div class="mt-3 grid space-y-3 text-sm">
+                    <p>
+                        <a class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 focus:outline-none focus:text-gray-800 "
+                            href="#">Sejarah</a>
                     </p>
                     <p>
                         <a class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 focus:outline-none focus:text-gray-800 "
-                            href="#">Help & Support</a>
+                            href="#">Asosisasi PRSI</a>
                     </p>
                     <p>
                         <a class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 focus:outline-none focus:text-gray-800 "
-                            href="#">eBook</a>
+                            href="#">Struktur Organisasi</a>
+                    </p>
+
+                </div>
+            </div>
+            <!-- End Col -->
+            <div>
+                <h4 class="text-xs font-semibold text-gray-900 uppercase ">
+                    Sosial Media
+                </h4>
+
+                <div class="mt-3 grid space-y-3 text-sm">
+                    <p>
+                        <a class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 focus:outline-none focus:text-gray-800 "
+                            href="#">Instagram</a>
                     </p>
                     <p>
                         <a class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 focus:outline-none focus:text-gray-800 "
-                            href="#">What's New</a>
+                            href="#">Youtube</a>
                     </p>
                     <p>
                         <a class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 focus:outline-none focus:text-gray-800 "
-                            href="#">Status</a>
+                            href="#">X</a>
                     </p>
+
                 </div>
             </div>
             <!-- End Col -->

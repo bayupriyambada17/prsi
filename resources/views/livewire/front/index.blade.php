@@ -8,7 +8,7 @@
         <div class="mx-auto md:px-0 px-5">
             <div class="grid grid-cols-1 md:grid-cols-5 gap-4">
                 <x-custom.shared.sidebar.left :blogs="$blogs" />
-                <x-custom.shared.sidebar.right :regionalBranches="$regionalBranches" />
+                <x-custom.shared.sidebar.right :regionalBranches="$regionalBranches" :calendars="$calendars" />
             </div>
         </div>
 

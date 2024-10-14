@@ -1,4 +1,4 @@
-@include('components.inc._top_header')
+{{-- @include('components.inc._top_header') --}}
 <header class="bg-white  flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full sticky top-0">
     <nav
         class="relative container md:flex md:items-center md:justify-between md:gap-3 mx-auto px-4 sm:px-6 lg:px-0 py-4">
@@ -95,15 +95,8 @@
                     <!-- Button Group -->
                     <div
                         class="relative flex flex-wrap items-center gap-x-2 md:ps-2.5 mt-1 md:mt-0 md:ms-1.5 before:block before:absolute before:top-1/2 before:-start-px before:w-px before:h-4 before:bg-gray-300 before:-translate-y-1/2 ">
-                        <a class="p-2 w-full flex items-center text-sm text-gray-800 hover:text-gray-500 focus:outline-none focus:text-gray-500 "
-                            href="#">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                stroke-width="1.5" stroke="currentColor" class="size-6">
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="m3 3 8.735 8.735m0 0a.374.374 0 1 1 .53.53m-.53-.53.53.53m0 0L21 21M14.652 9.348a3.75 3.75 0 0 1 0 5.304m2.121-7.425a6.75 6.75 0 0 1 0 9.546m2.121-11.667c3.808 3.807 3.808 9.98 0 13.788m-9.546-4.242a3.733 3.733 0 0 1-1.06-2.122m-1.061 4.243a6.75 6.75 0 0 1-1.625-6.929m-.496 9.05c-3.068-3.067-3.664-7.67-1.79-11.334M12 12h.008v.008H12V12Z" />
-                            </svg>
-                            Live Streaming
-                        </a>
+                        <x-custom.shared.ahref href="{{ route('timeline-calender') }}"
+                            title="Jadwal PRSI"></x-custom.shared.ahref>
                     </div>
                     <!-- End Button Group -->
                 </div>

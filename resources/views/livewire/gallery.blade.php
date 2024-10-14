@@ -1,7 +1,7 @@
 @section('title', 'Gallery')
 
 <div>
-    <div class="flex flex-col lg:px-0 px-5 space-y-4 container mx-auto mt-4" wire:pool.keep-alive>
+    <div class="flex flex-col lg:px-0 px-5 space-y-4 container mx-auto mt-4">
         <ol class="flex items-center whitespace-nowrap">
             <x-custom.breadcrumb-view :links="[['label' => 'Beranda', 'url' => route('home')], ['label' => 'Galeri']]" />
         </ol>
